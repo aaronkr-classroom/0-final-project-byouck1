@@ -1,5 +1,5 @@
-const User = require('../models/user');
-
+const User = require('../models/User');
+const passport = require('passport');
 // 회원가입
 exports.register = (req, res) => {
   const newUser = new User({ username: req.body.username });
