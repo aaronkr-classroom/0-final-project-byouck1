@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Book</title>
+</head>
+<body>
+  <h1>New Book</h1>
+  <form action="/books" method="POST">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title">
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author">
+    <label for="year">Year:</label>
+    <input type="number" id="year" name="year">
+    <label for="genre">Genre:</label>
+    <input type="text" id="genre" name="genre">
+    <button type="submit">Add Book</button>
+  </form>
+  <a href="/books">Back to Books</a>
+</body>
+</html>
